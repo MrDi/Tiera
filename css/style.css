@@ -148,7 +148,7 @@ p.bold_up {
     height: 100%;
     background: #f0f0f0;
     top: 0;
-    left: -103%;
+    left: -104%;
 }
 
 .pikabu >div {
@@ -280,4 +280,27 @@ section.advantage {
 
 .row.ad_row {
     margin: 3rem 0;
+}
+
+.image_cooperation {
+    background: url(/images/img3.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+h2 {}
+
+h2.left_el:before {
+    background: url(/images/element_left.svg);
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    left: -103%;
+    top: 38px;
+    background-size: 154%;
+    transform: rotateZ(-0.04deg);
 }
