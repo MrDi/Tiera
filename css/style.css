@@ -94,7 +94,7 @@ header.tutorial {
     cursor: pointer;
 }
 
-body {font-size: 1rem;}
+body {font-family: "Agora";font-size: 1rem;overflow-x: hidden;}
 
 .image_about {
     background: url(/images/img1.jpg);
@@ -111,10 +111,18 @@ body {font-size: 1rem;}
 h2 {
     font-size: 3rem;
     padding: 1rem 0;
+    font-weight: 900;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    transform: rotateZ(0.04deg);
+    letter-spacing: 0.9px;
 }
 
 html {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .blue_color {
@@ -210,6 +218,7 @@ ul.menu {
     font-size: 2.5rem;
     line-height: 48px;
     color: #1a74b8;
+    transform: rotateZ(0.04deg);
 }
 
 span.count-description {
@@ -260,10 +269,15 @@ section.advantage {
 .service_block h3 {
     font-size: 1.1rem;
     text-align: center;
+    font-weight: 600;
 }
 
 .service_block p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
+}
+
+.row.ad_row {
+    margin: 3rem 0;
 }

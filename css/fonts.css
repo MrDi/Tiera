@@ -57,7 +57,7 @@
 /* font-family: "RalewayBlack"; */
 @font-face {
     font-family: "Agora";
-    src: url("../fonts/PFAgoraSansPro-UltraBlack.otf");
+    src: url("../fonts/PFAgoraSansPro-UltraBlack.ttf");
     font-style: normal;
     font-weight: 900;
 }
