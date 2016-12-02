@@ -1,7 +1,7 @@
  .tutorial ul {
     font-size: 0;
     list-style-type: none;
-    width: inherit;
+    width: initial;
 }
 
 .tutorial ul li {
@@ -76,12 +76,12 @@ header.tutorial {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 99;
     background: #fff;
     overflow: hidden;
 }
 .slider {
-	background: url(/slider/back_slider.jpg);
+	background: url(/images/cover1.jpg);
 	background-size: cover;
 	width: 100%;
 	height: 100vh;
@@ -94,11 +94,12 @@ header.tutorial {
     cursor: pointer;
 }
 
-body {
-}
+body {font-size: 1rem;}
 
 .image_about {
-    background: green;
+    background: url(/images/img1.jpg);
+    background-size: cover;
+    background-position: 50%;
 }
 
 .about .row {
@@ -149,4 +150,120 @@ p.bold_up {
 
 .pikabu {
     padding: 1rem 0;
+}
+
+.col-lg-2.pad_r_0.mar_r_0.block_left_align {
+    height: 100%;
+}
+
+.col-lg-8 {
+}
+
+header.tutorial .logo_top a img {
+    width: 124px;
+    height: initial;
+}
+
+header.tutorial * {height: 100%;}
+
+header.tutorial a {
+    display: flex;
+    align-items: center;
+}
+
+.logo_top {
+    padding: 0 6%;
+}
+
+ul.no_padd {
+    padding: 2px 17px;
+}
+
+ul li {
+    margin: 4px 0;
+}
+
+ul.blue_color.no_padd li span {
+    color: #000;
+}
+
+ul.menu {
+    text-align: center;
+}
+
+.counter-section {
+    text-align: center;
+    background: url(/images/counter.jpg);
+    position: relative;
+    color: #1a74b8;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.counter-wrap {
+    padding: 4rem 0;
+}
+
+.counter-section strong {
+    display: block;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 48px;
+    color: #1a74b8;
+}
+
+span.count-description {
+    font-size: 1rem;
+}
+
+.direction_make .row {
+    display: flex;
+}
+
+.work {}
+
+.work_image {
+    margin-right: 0rem;
+    position: relative;
+    left: -10rem;
+    background: url(/images/img2.jpg);
+}
+
+.text_block_right {
+    padding: 2rem 0rem 2rem 6rem;
+}
+
+.center-block_text {
+    padding: 5rem 3rem 5rem 0;
+}
+
+.text_center {
+    text-align: center;
+}
+
+section.advantage {
+    padding: 3rem;
+}
+
+.back_gray {
+    background: #f0f0f0;
+}
+
+.service_icon .svg_icon {
+    width: 83px;
+}
+
+.service_icon {
+    text-align: center;
+}
+
+.service_block h3 {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.service_block p {
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 600;
 }
