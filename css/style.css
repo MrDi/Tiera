@@ -307,17 +307,17 @@ h2.left_el:before {
     z-index: -1;
 }
 
-.solution h2.left_el:before {
+.solution .left_el:before {
     background: url(/images/element_left.svg);
     content: '';
     display: inline-block;
-    width: 100%;
+    width: 500%;
     height: 100%;
     position: absolute;
     background-repeat: no-repeat;
-    background-position: 100% 0;
-    left: -60.6%;
-    top: 44px;
+    background-position: 114% 56%;
+    left: -500%;
+    top: 0;
 }
 
 body.ttt {
@@ -444,10 +444,12 @@ body.ttt {
     width: 100%;
     height: 100%;
     position: absolute;
-    background: rgba(2, 2, 2, 0.43);
+    background: rgba(2, 2, 2, 0.5);
     top: 0;
     border-radius: 5px;
     z-index: 10;
+    left: 0;
+    transition: background 0.4s ease;
 }
 
 .ser_text {
@@ -497,9 +499,147 @@ body.ttt {
     margin-left: 26px;
 }
 
+.solution .right_el:after {
+    content: '';
+    background: url(/images/element_right.svg);
+    content: '';
+    display: inline-block;
+    width: 500%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: -14% 61%;
+    transform: rotateZ(-0.04deg);
+    margin-left: 0;
+    top: 0;
+}
+
+
 .back_gray_dark {
     background: #363636;
 }
 .white_color {
 	color: #fff;
+}
+
+
+p.right_el.left_el.sol_p {
+    position: relative;
+    display: inline-block;
+}
+
+.grid_solution {
+    display: flex;
+    color: white;
+    padding-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.solution_left {
+    width: 50%;
+}
+
+.solution_right {
+    width: 50%;
+    display: flex;
+}
+
+.solution_left {}
+
+.solution_l_top {
+    width: 100%;
+    height: 23vw;
+    background: url(/images/solve1.jpg);
+}
+
+.solution .container-fluid {
+    padding: 0;
+}
+
+.solution_l_bottom {
+    height: 15vw;
+    background: #008000;
+    display: flex;
+}
+
+.solution_r_l {
+    width: 50%;
+    height: 38vw;
+    background: url(/images/solve4.jpg);
+}
+
+.solution_r_r {
+    width: 50%;
+}
+
+.solution_r_r_t {
+    width: 100%;
+    height: 15vw;
+    background: url(/images/solve5.jpg);
+}
+
+.solution_r_r_b {
+    width: 100%;
+    height: 23vw;
+    background: url(/images/solve6.jpg);
+}
+
+.solution_l_b_l {width: 50%;background: url(/images/solve2.jpg);}
+
+.solution_l_b_r {
+    width: 50%;
+    background: url(/images/solve3.jpg);
+}
+
+.intro_s {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 0rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 11;
+}
+
+.out_s {
+    padding: 15px;
+    background-size: cover;
+    position: relative;
+    transition: all 0.4s ease-out;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.intro_s p {
+    font-size: 1rem;
+    margin: 0 0 0.3rem 0;
+}
+
+.intro_s p.p_top {
+    margin-top: 15px;
+}
+
+.out_s a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 12;
+    top: 0;
+    left: 0;
+}
+
+.out_s:hover .dark_back,.service_item:hover .dark_back  {
+    background: rgba(69, 153, 216, 0.5);
+}
+
+.out_s .dark_back {
+    border-radius: 0;
+}
+
+.out_s:hover {
+    padding: 25px;
 }
