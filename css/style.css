@@ -304,3 +304,47 @@ h2.left_el:before {
     background-size: 154%;
     transform: rotateZ(-0.04deg);
 }
+
+body.ttt {
+    /* min-width: 1920px; */
+    /* overflow: auto; */
+}
+
+.button.readmore a {
+    padding: 14px 61px;
+    color: #4599d8;
+    border: 1px solid #4599d8;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: color, background 0.4s ease;
+}
+
+.button.readmore {
+    margin: 1rem 0;
+}
+
+.button.readmore a:hover {
+    color: white;
+    background: #4599d8;
+}
+
+.service-1 {}
+
+.service_item {
+    height: 11vw;
+    width: 31.33%;
+    border-radius: 5px;
+}
+
+.row.service_grid {
+    padding: 4rem 0;
+}
+
+.row.service-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-lg-6.col-lg-offset-1.text_block {
+}
