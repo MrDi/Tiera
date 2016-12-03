@@ -492,8 +492,9 @@ body.ttt {
     height: 68%;
     position: absolute;
     background-repeat: no-repeat;
-    background-position: 14% 50%;
+    background-position: 0% 50%;
     transform: rotateZ(-0.04deg);
+    margin-left: 26px;
 }
 
 .back_gray_dark {
